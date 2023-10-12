@@ -1,3 +1,3 @@
 <template>
-  <section>About</section>
+  <section class="p-10">ABOUT</section>
 </template>

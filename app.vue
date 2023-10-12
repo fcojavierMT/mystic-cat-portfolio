@@ -1,12 +1,21 @@
 <script setup lang="ts">
+import { onMounted } from 'vue'
+import { themeChange } from 'theme-change'
+
 useHead({
   title: 'Mystic Cat',
   meta: [{ name: 'description', content: 'My personal portfolio' }],
 })
+
+onMounted(() => {
+  themeChange(false)
+})
 </script>
 
 <template>
-  <div class="hello">First time!</div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <style scoped>
