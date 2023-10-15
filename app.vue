@@ -1,3 +1,10 @@
+<script setup lang="ts">
+useHead({
+  title: 'Mystic Cat',
+  meta: [{ name: 'description', content: 'Mystic Cat page!' }],
+})
+</script>
+
 <template>
   <NuxtLayout>
     <NuxtPage />
