@@ -5,6 +5,15 @@ module.exports = {
     themes: ['light', 'dark'],
   },
   theme: {
+    animation: {
+      fade: 'fadeIn 5s ease-in-out',
+    },
+    keyframes: theme => ({
+      fadeIn: {
+        '0%': { backgroundColor: theme('colors.red.300') },
+        '100%': { backgroundColor: theme('colors.transparent') },
+      },
+    }),
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
