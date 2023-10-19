@@ -3,6 +3,10 @@ useHead({
   title: 'Mystic Cat',
   meta: [{ name: 'description', content: 'Mystic Cat page!' }],
 })
+
+if (!localStorage.getItem('nuxt-color-mode')) {
+  localStorage.setItem('nuxt-color-mode', 'dark')
+}
 </script>
 
 <template>

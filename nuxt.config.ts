@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxtjs/color-mode', 'nuxt-icon'],
   css: ['@/assets/styles/index.css'],
   colorMode: {
-    preference: 'system',
+    preference: 'dark',
     dataValue: 'theme',
     classSuffix: '',
   },
