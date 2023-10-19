@@ -16,7 +16,6 @@ export default defineNuxtConfig({
       { code: 'en', iso: 'en-EN', file: 'en.json' },
     ],
   },
-  ssr: false,
   nitro: {
     preset: 'node-server',
   },
