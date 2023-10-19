@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default defineNuxtConfig({\
+  ssr: false,
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxtjs/color-mode', 'nuxt-icon'],
   css: ['@/assets/styles/index.css'],
   colorMode: {
