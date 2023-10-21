@@ -27,7 +27,7 @@ currentImages.value = [...props.images]
       v-for="(image, index) in currentImages"
       :key="index"
       :src="image"
-      class="w-full h-auto m-4 rounded-xl max-h-[200px] sm:min-h-[500px] sm:max-w-[700px] cursor-pointer"
+      class="w-full h-auto m-4 rounded-xl min-h-[250px] max-h-[250px] max-w-[350px] sm:min-h-[500px] sm:max-w-[700px] cursor-pointer"
       @click="goNext"
     />
   </div>

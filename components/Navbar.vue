@@ -1,6 +1,7 @@
 <script setup>
 import logo from '@/assets/images/logo.png'
 import SwapTheme from './SwapTheme.vue'
+import SelectLang from './SelectLang.vue'
 </script>
 
 <template>
@@ -27,20 +28,29 @@ import SwapTheme from './SwapTheme.vue'
           tabindex="0"
           class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
         >
-          <li class="text-[18px] ml-2"><NuxtLink to="/">Mis trabajos</NuxtLink></li>
-          <li class="text-[18px] ml-2"><NuxtLink to="/about">Sobre mi</NuxtLink></li>
+          <li class="text-[18px] ml-2">
+            <NuxtLink to="/">{{ $t('navbar.works') }}</NuxtLink>
+          </li>
+          <li class="text-[18px] ml-2">
+            <NuxtLink to="/about">{{ $t('navbar.works') }}</NuxtLink>
+          </li>
         </ul>
       </div>
       <img :src="logo" alt="logo" class="w-[70px]" />
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li class="text-[18px] ml-2"><NuxtLink to="/">Mis trabajos</NuxtLink></li>
-        <li class="text-[18px] ml-2"><NuxtLink to="/about">Sobre mi</NuxtLink></li>
+        <li class="text-[18px] ml-2">
+          <NuxtLink to="/">{{ $t('navbar.works') }}</NuxtLink>
+        </li>
+        <li class="text-[18px] ml-2">
+          <NuxtLink to="/about">{{ $t('navbar.about') }}</NuxtLink>
+        </li>
       </ul>
     </div>
     <div class="navbar-end">
       <SwapTheme />
+      <SelectLang />
     </div>
   </div>
 </template>

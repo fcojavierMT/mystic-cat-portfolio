@@ -8,16 +8,29 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
   i18n: {
-    strategy: 'no_prefix',
     defaultLocale: 'es',
     langDir: 'locales',
     locales: [
-      { code: 'es', iso: 'es-ES', file: 'es.json' },
-      { code: 'en', iso: 'en-EN', file: 'en.json' },
+      { code: 'es', iso: 'es-ES', file: 'es.json', name: 'ES' },
+      { code: 'en', iso: 'en-EN', file: 'en.json', name: 'EN' },
     ],
   },
   ssr: false,
   nitro: {
     preset: 'node-server',
+  },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
+      title: 'Mystic Cat',
+      meta: [
+        {
+          name: 'description',
+          content: 'This is the personal portofolio for Ana Maria Martinez Talavera',
+        },
+      ],
+    },
   },
 })

@@ -1,12 +1,10 @@
-<script setup lang="ts">
-useHead({
-  title: 'Mystic Cat',
-  meta: [{ name: 'description', content: 'Mystic Cat page!' }],
-})
-
+<script setup>
 if (!localStorage.getItem('nuxt-color-mode')) {
   localStorage.setItem('nuxt-color-mode', 'dark')
 }
+const switchLocalePath = useSwitchLocalePath()
+
+switchLocalePath('es')
 </script>
 
 <template>
