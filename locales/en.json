@@ -1,6 +1,10 @@
 {
   "about": {
-    "description": "Trabajo sobretodo en modelados de rig, concepto art, y tambien hago mis propias animaciones!",
-    "title": "Hola! Soy Ana, y soy tecnica en desarrollo de Animaciones 3D"
+    "description": "I mainly work on rig modeling, concept art, and I also create my own animations!",
+    "title": "Hello! My name is Ana, and I'm a 3D Animation Development Technician"
+  },
+  "navbar": {
+    "about": "About Me",
+    "works": "My Works"
   }
 }
