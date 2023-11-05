@@ -1,5 +1,10 @@
 @import '_fonts.css';
+@import '_montserrat.css';
 
 body {
   font-family: 'PixelifySans';
+}
+
+.font-montserrat {
+  font-family: 'Montserrat';
 }

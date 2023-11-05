@@ -3,8 +3,19 @@
     "description": "Trabajo sobretodo en modelados de rig, concept art y tambien hago mis propias animaciones!",
     "title": "Hola! Me llamo Ana y soy técnica en desarrollo de Animaciones 3D"
   },
+  "comisions": {
+    "flat": "Flat and shadow!",
+    "flatDescription": "Rapido y facil!",
+    "full": "Full shadow",
+    "fullDescription": "Un poco mas complejo 0_0",
+    "sketch": "Sketch Painting (rendered)",
+    "sketchDescription": "WOAH!?!?!",
+    "title": "Comisiones"
+  },
   "navbar": {
     "about": "Sobre mi",
+    "animations": "Animaciones",
+    "art": "Comisiones",
     "works": "Mis trabajos"
   }
 }

@@ -32,7 +32,13 @@ import SelectLang from './SelectLang.vue'
             <NuxtLink to="/">{{ $t('navbar.works') }}</NuxtLink>
           </li>
           <li class="text-[18px] ml-2">
-            <NuxtLink to="/about">{{ $t('navbar.works') }}</NuxtLink>
+            <NuxtLink to="/about">{{ $t('navbar.about') }}</NuxtLink>
+          </li>
+          <li class="text-[18px] ml-2">
+            <NuxtLink to="/art">{{ $t('navbar.art') }}</NuxtLink>
+          </li>
+          <li class="text-[18px] ml-2">
+            <NuxtLink to="/animations">{{ $t('navbar.animations') }}</NuxtLink>
           </li>
         </ul>
       </div>
@@ -45,6 +51,12 @@ import SelectLang from './SelectLang.vue'
         </li>
         <li class="text-[18px] ml-2">
           <NuxtLink to="/about">{{ $t('navbar.about') }}</NuxtLink>
+        </li>
+        <li class="text-[18px] ml-2">
+          <NuxtLink to="/art">{{ $t('navbar.art') }}</NuxtLink>
+        </li>
+        <li class="text-[18px] ml-2">
+          <NuxtLink to="/animations">{{ $t('navbar.animations') }}</NuxtLink>
         </li>
       </ul>
     </div>
