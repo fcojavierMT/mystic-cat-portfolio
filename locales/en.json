@@ -1,10 +1,21 @@
 {
   "about": {
-    "description": "I mainly work on rig modeling, concept art, and I also create my own animations!",
-    "title": "Hello! My name is Ana, and I'm a 3D Animation Development Technician"
+    "description": "I work mainly in rig modeling, concept art and I also make my own animations!",
+    "title": "Hello! "
+  },
+  "comisions": {
+    "flat": "Flat and shadow!",
+    "flatDescription": "Quick and easy!",
+    "full": "full shadow",
+    "fullDescription": "A little more complex 0_0",
+    "sketch": "Sketch Painting (rendered)",
+    "sketchDescription": "WOAH!?!?!",
+    "title": "commissions"
   },
   "navbar": {
-    "about": "About Me",
-    "works": "My Works"
+    "about": "About me",
+    "animations": "Animations",
+    "art": "commissions",
+    "works": "My jobs"
   }
 }
